@@ -4,7 +4,7 @@
 ![screenshots of example app](/images/screenshots@1x.png)
 
 
-### indexOf
+###  ✅ indexOf
 
 The indexOf() method returns the index of (the position of) the first occurrence of a specified text.
 
@@ -12,82 +12,111 @@ The indexOf() method returns the index of (the position of) the first occurrence
 Example Code :
 
 const str ='I have Js, Wait I love Js'
-str.indexOf('Js');
+console.log(str.indexOf('Js'));
 
 Output: 7
 
 ```
 
-### length
+### ✅ length
 
 The length property returns the length of a string.
 
 ```
+Example Code :
+
 const str = 'ILoveJs'
 str.length;
+
+Output: 7
 
 
 ```
 
-### slice
+###  ✅slice
 
 slice() extracts a part of a string and returns the extracted part in a new string.
 
 ```
+Example Code :
+
 const str = 'ILoveJs';
 str.slice(2,5);
 
+Output: ove
+
 ```
 
-### replace
+### ✅replace
 
 The replace() method replaces a specified value with another value in a string.
 
 ```
+Example Code :
+
 const str = 'IHateJs';
-str.replace('Hate', 'Love'); 
+console.log(str.replace('Hate', 'Love')); 
+
+Output: ILoveJs
 
 ```
 
-### upper and lower case
+### ✅upper and lower case
 
 This method converts a string to lowercase or uppercase
 
 ```
+Example Code :
+
 const str="ILoveJs";
-str.toLowerCase();
-str.toUpperCase();
+console.log(str.toLowerCase());
+console.log(str.toUpperCase());
+
+Output: ilovejs  ILOVEJS
 
 ```
 
 
-### trim
+### ✅trim
+
 
 The trim() methods removes whitespace from both sides of the string
 
 ```
-const str = '        ILoveCss'      ;
-str.trim(); 
+Example Code :
+
+const str = '        ILoveJs'      ;
+console.log(str.trim());
+
+Output: ILoveJs
 
 ```
 
-### concat
+### ✅concat
 
 concat() joins two or more strings. The concat() method can be used instead of the plus operator
 
 ```
+Example Code :
+
 const str = 'Ilove';
-str.concat('Js')
+console.log(str.concat('Js'));
+
+Output: ILoveJs
 
 ```
 
-### split
+### ✅split
 
 A string can ve converted to an array with the split() method
 
 ```
-const str = 'I,Love,Css'; 
+Example Code :
+
+const str = 'I,Love,Js'; 
 str.split(',');
+
+Output: ['I', 'Love', 'Js']
 
 ```
 
