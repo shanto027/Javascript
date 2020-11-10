@@ -9,8 +9,12 @@
 The indexOf() method returns the index of (the position of) the first occurrence of a specified text.
 
 ```
+Example Code :
+
 const str ='I have Js, Wait I love Js'
 str.indexOf('Js');
+
+Output: 7
 
 ```
 
