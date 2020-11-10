@@ -1,3 +1,5 @@
+#Javascript - Day 1
+
 #  8 Useful JavaScript String Methods
 
 
